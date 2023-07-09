@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 
 }
 
 body {
-    width: 100%;
+   max-width: 100%;
     overflow-x: hidden;
-    height: 100vh;
 }
 
 h1,
@@ -97,4 +97,7 @@ button {
 .show {
     display: block;
     transition: all 0.3s ease;
+}
+li{
+    list-style: square;
 }
